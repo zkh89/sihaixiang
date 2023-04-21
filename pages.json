@@ -1,0 +1,75 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "四海香"
+			}
+		},
+		{
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/car/car",
+			"style": {
+				"navigationBarTitleText": "心愿单",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/step/step",
+			"style": {
+				"navigationBarTitleText": "烹饪行程",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#f33e54",
+
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/ICON/footer1.png",
+				"selectedIconPath": "static/ICON/footer1-sel.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/car/car",
+				"iconPath": "static/ICON/footer2.png",
+				"selectedIconPath": "static/ICON/footer2-sel.png",
+				"text": "心愿单"
+			},
+			{
+				"pagePath": "pages/step/step",
+				"iconPath": "static/ICON/footer3.png",
+				"selectedIconPath": "static/ICON/footer3-sel.png",
+				"text": "烹饪行程"
+			},
+			{
+				"pagePath": "pages/me/me",
+				"iconPath": "static/ICON/footer4.png",
+				"selectedIconPath": "static/ICON/footer4-sel.png",
+				"text": "我的"
+			}
+		]
+	}
+
+}
